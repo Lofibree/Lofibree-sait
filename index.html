@@ -9,6 +9,8 @@
     <link type="Image/x-icon" href="front/accets/favicon.ico" rel="icon">
     <script async src="front/js/swiper.min.js"></script>
     <link rel="stylesheet" href="front/css/swiper.min.css">
+    <script src="front/js/viewer.js"></script>
+    <link rel="stylesheet" href="front/css/viewer.css">
     <link rel="stylesheet" href="front/css/normalize.css">
     <link rel="stylesheet" href="front/css/style.css">
     <link rel="stylesheet" href="front/css/media.css">
@@ -21,7 +23,9 @@
     <header class="header">
         <div class="container">
             <div class="logo-wrapper">
-                <img src="front\accets\Logo.svg" alt="logo">
+                <a href="index.html">
+                    <img src="front\accets\Logo.svg" alt="logo">
+                </a>
             </div>
             <nav class="navbar">
                 <ul class="nav-list">
@@ -123,7 +127,7 @@
                 <!-- <div class="skills-detailes__block"> -->
                 <ul class="skills-detailes__block skills-detailes__list">
                     <li class="skills-detailes__item">
-                        <img src="front\accets\3d.png" alt="3d" class="skills-detailes-item__img">
+                        <img src="front\accets\skills\3d.png" alt="3d" class="skills-detailes-item__img">
                         <h5 class="skills-detailes-item__title">Проектирование в CAD-программах</h5>
                         <p class="skills-detailes-item__description">
                             SolidWorks
@@ -134,22 +138,22 @@
                             Колориметрический расчёт</p>
                     </li>
                     <li class="skills-detailes__item">
-                        <img src="front\accets\light.png" alt="light" class="skills-detailes-item__img">
+                        <img src="front\accets\skills\light.png" alt="light" class="skills-detailes-item__img">
                         <h5 class="skills-detailes-item__title">Светотехнический расчёт</h5>
                         <p class="skills-detailes-item__description">Dialux evo</p>
                     </li>
                     <li class="skills-detailes__item">
-                        <img src="front\accets\frontend.png" alt="frontend" class="skills-detailes-item__img">
+                        <img src="front\accets\skills\frontend.png" alt="frontend" class="skills-detailes-item__img">
                         <h5 class="skills-detailes-item__title">Frontend</h5>
                         <p class="skills-detailes-item__description">HTML, CSS, JS, React</p>
                     </li>
                     <li class="skills-detailes__item">
-                        <img src="front\accets\backend.png" alt="backend" class="skills-detailes-item__img">
+                        <img src="front\accets\skills\backend.png" alt="backend" class="skills-detailes-item__img">
                         <h5 class="skills-detailes-item__title">Backend</h5>
                         <p class="skills-detailes-item__description">C#</p>
                     </li>
                     <li class="skills-detailes__item">
-                        <img src="front\accets\graphics.png" alt="graphics" class="skills-detailes-item__img">
+                        <img src="front\accets\skills\graphics.png" alt="graphics" class="skills-detailes-item__img">
                         <h5 class="skills-detailes-item__title">Графические редакторы</h5>
                         <p class="skills-detailes-item__description">Photoshop, After Effects</p>
                     </li>
@@ -166,7 +170,7 @@
                             <div class="new-peview">
                                 <div class="media peview-block">
                                     <div class="media-block previews__item">
-                                        <img src="front\accets\solidworks.png" alt="solidworks"
+                                        <img src="front\accets\programs\solidworks.png" alt="solidworks"
                                             class="previews-item__img">
                                     </div>
                                 </div>
@@ -176,7 +180,7 @@
                             <div class="new-peview">
                                 <div class="media peview-block">
                                     <div class="media-block previews__item">
-                                        <img src="front\accets\dialux_evo.svg" alt="dialux_evo"
+                                        <img src="front\accets\programs\dialux_evo.svg" alt="dialux_evo"
                                             class="previews-item__img">
                                     </div>
                                 </div>
@@ -186,7 +190,7 @@
                             <div class="new-peview">
                                 <div class="media peview-block">
                                     <div class="media-block previews__item">
-                                        <img src="front\accets\html.png" alt="html" class="previews-item__img">
+                                        <img src="front\accets\programs\html.png" alt="html" class="previews-item__img">
                                     </div>
                                 </div>
                             </div>
@@ -195,7 +199,7 @@
                             <div class="new-peview">
                                 <div class="media peview-block">
                                     <div class="media-block previews__item">
-                                        <img src="front\accets\css.png" alt="css" class="previews-item__img">
+                                        <img src="front\accets\programs\css.png" alt="css" class="previews-item__img">
                                     </div>
                                 </div>
                             </div>
@@ -204,7 +208,7 @@
                             <div class="new-peview">
                                 <div class="media peview-block">
                                     <div class="media-block previews__item">
-                                        <img src="front\accets\js.png" alt="js" class="previews-item__img">
+                                        <img src="front\accets\programs\js.png" alt="js" class="previews-item__img">
                                     </div>
                                 </div>
                             </div>
@@ -213,7 +217,7 @@
                             <div class="new-peview">
                                 <div class="media peview-block">
                                     <div class="media-block previews__item">
-                                        <img src="front\accets\react.png" alt="react" class="previews-item__img">
+                                        <img src="front\accets\programs\react.png" alt="react" class="previews-item__img">
                                     </div>
                                 </div>
                             </div>
@@ -222,7 +226,7 @@
                             <div class="new-peview">
                                 <div class="media peview-block">
                                     <div class="media-block previews__item">
-                                        <img src="front\accets\csharp.png" alt="csharp" class="previews-item__img">
+                                        <img src="front\accets\programs\csharp.png" alt="csharp" class="previews-item__img">
                                     </div>
                                 </div>
                             </div>
@@ -231,7 +235,7 @@
                             <div class="new-peview">
                                 <div class="media peview-block">
                                     <div class="media-block previews__item">
-                                        <img src="front\accets\photoshop.png" alt="photoshop"
+                                        <img src="front\accets\programs\photoshop.png" alt="photoshop"
                                             class="previews-item__img">
                                     </div>
                                 </div>
@@ -241,7 +245,7 @@
                             <div class="new-peview">
                                 <div class="media peview-block">
                                     <div class="media-block previews__item">
-                                        <img src="front\accets\after-effects.png" alt="after-effects"
+                                        <img src="front\accets\programs\after-effects.png" alt="after-effects"
                                             class="previews-item__img">
                                     </div>
                                 </div>
@@ -277,7 +281,7 @@
                             </a>
                         </article>
                         <article class="projects__card">
-                            <a href="#">
+                            <a href="yarkiy_page.html">
                                 <img src="front\accets\projects\yarkiy_page\yarkiy_page_1.jpg" alt="yarkiy_page"
                                     class="projects__card__img">
                                 <div class="projects__card__info">
@@ -291,8 +295,8 @@
                             </a>
                         </article>
                         <article class="projects__card">
-                            <a href="#">
-                                <img src="front\accets\projects\dialux\dialux_1.jpg" alt="" class="projects__card__img">
+                            <a href="dialux.html">
+                                <img src="front\accets\projects\dialux\dialux_1.jpg" alt="dialux" class="projects__card__img">
                                 <div class="projects__card__info">
                                     <h5 class="projects__card__title">Светотехнический расчёт помещений в Dialux evo
                                     </h5>
@@ -301,7 +305,7 @@
                             </a>
                         </article>
                         <article class="projects__card">
-                            <a href="#">
+                            <a href="telescop.html">
                                 <img src="front\accets\projects\telescop\telescop_1.jpg" alt="telescop"
                                     class="projects__card__img">
                                 <div class="projects__card__info">
@@ -317,7 +321,7 @@
                     <li class="projects__item">
 
                         <article class="projects__card">
-                            <a href="#">
+                            <a href="light_sourse.html">
                                 <img src="front\accets\projects\light_source\light_source_1.JPG" alt="light_source"
                                     class="projects__card__img">
                                 <div class="projects__card__info">
@@ -397,7 +401,7 @@
                 <h3 class="photography__title title">Фотографии</h3>
                 <p class="photography__description">Лучшие фотографии, в том числе с графической обработкой, что я
                     делал.</p>
-                <div class="photography-tab__block">
+                <div class="photography-tab__block" id="galleryViewer">
                     <div class="photography-tab__menu">
                         <button class="photography-tab__button tab__btn tab__btn--active" data-button="spb">СПБ</button>
                         <button class="photography-tab__button tab__btn" data-button="crimea">Крым</button>
@@ -498,15 +502,19 @@
         <div class="container">
             <div class="footer__general-content-block">
                 <div class="general-content__contacts-block">
-                    <div class="footer__logo-wrapper"><img src="front\accets\Logo.svg" alt="logo"></div>
+                    <div class="footer__logo-wrapper">
+                        <a href="index.html">
+                            <img src="front\accets\Logo.svg" alt="logo">
+                        </a>
+                    </div>
                     <ul class="footer-social__list">
                         <li class="footer-social__item"><a href="https://vk.com/lofibree" target="_blank"><img
-                                    src="front\accets\vk.png" alt="vk"></a></li>
+                                    src="front\accets\social\vk.png" alt="vk"></a></li>
                         <li class="footer-social__item"><a href="https://t.me/Lofibree" target="_blank"><img
-                                    src="front\accets\telegram.png" alt="telegram"></a>
+                                    src="front\accets\social\telegram.png" alt="telegram"></a>
                         </li>
                         <li class="footer-social__item"><a href="https://github.com/Lofibree" target="_blank"><img
-                                    src="front\accets\github.png" alt="github"></a></li>
+                                    src="front\accets\social\github.png" alt="github"></a></li>
                     </ul>
                 </div>
                 <div class="general-content__nav-block">

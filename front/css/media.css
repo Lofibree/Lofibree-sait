@@ -178,7 +178,7 @@
 }
 
 @media(max-width: 767.98px) {
-    [class*=container] {
+    .container {
         padding: 0 20px
     }
 
