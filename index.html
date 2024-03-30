@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сергей Брытко</title>
+    <link type="image/x-icon" href="front/accets/favicon.ico" rel="shortcut icon">
+    <link type="Image/x-icon" href="front/accets/favicon.ico" rel="icon">
+    <script async src="front/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="front/css/swiper.min.css">
+    <link rel="stylesheet" href="front/css/normalize.css">
+    <link rel="stylesheet" href="front/css/style.css">
+    <link rel="stylesheet" href="front/css/media.css">
+    <!-- <link rel="stylesheet" href="css/custom-select.css"> -->
+    <link rel="stylesheet" href="front/css/custom-input.css">
+    <link rel="stylesheet" href="front/css/custom-textarea.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo-wrapper">
+                <img src="front\accets\Logo.svg" alt="logo">
+            </div>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#education" class="nav__link nav-active">Образование</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav__link">Проекты</a></li>
+                    <li class="nav-item"><a href="#photography" class="nav__link">Фотография</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <button type="button" class="butger-btn" aria-label="open menu" aria-expanded="false"><span></span></button>
+        </div>
+    </header>
+    <main class="page">
+        <section class="hero-block">
+            <div class="hero-block__wrap">
+                <picture class="hero-block__img">
+                    <sourse srcset="accets\hero-block__img.avif" type="image/avif"></sourse>
+                    <sourse srcset="accets\hero-block__img.webp" type="image/webp"></sourse>
+                    <img src="front\accets\hero-block__img.jpg" alt="hero-block__img" loading="lazy" width="750">
+                </picture>
+                <div class="hero-block__text">
+                    <h1 class="hero-block__title title">Сергей Брытков. Инженер/программист, <span>живущий в
+                            Томске.</span>
+                    </h1>
+                    <p class="hero-block__description">Всегда ищу возможность для развития. Если работа интересная,
+                        небесплатная и требует человека с хорошим образованием, то обращайтесь.</p>
+                </div>
+            </div>
+        </section>
+        <section class="education section" id="education">
+            <div class="container">
+                <p class="education__title-small">Образование</p>
+                <h3 class="education__title title">Образование и специальности, которые я получил</h3>
+                <ul class="education__list">
+                    <li class="education__item">
+                        <h4 class="education-item__title"><span class="green">НИ ТПУ</span>, магистратура по направлению
+                            "Оптотехника"
+                        </h4>
+                        <p class="education-item__text">В данный момент я обучаюсь по направлению "Оптотехника".
+                            Востребованная инженерная специальность.</p>
+                    </li>
+                    <li class="education__item">
+                        <h4 class="education-item__title"><span class="blue">СПбГУ</span>, бакалавриат по направлению
+                            "Физика"</h4>
+                        <p class="education-item__text">Фундаментальное физическое образование. Научная работа по
+                            физическим процессам в газоразрядной плазме.</p>
+                    </li>
+                    <li class="education__item">
+                        <h4 class="education-item__title"><span class="pink">Лицей при ТПУ</span></h4>
+                        <p class="education-item__text">ТОП-20 школ по конкурентоспособности выпускников.
+                            Физико-математическо-информационно-химическая направленность</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="experience">
+            <div class="container">
+                <p class="experience__title-small">Опыт работы</p>
+                <h3 class="experience__title title">Компании, в которых я работал</h3>
+                <ul class="experience__list">
+                    <li class="experience__item">
+                        <h4 class="experience-item__title"><span class="green">Pixlpark</span>, web-мастер</h4>
+                        <p class="experience-item__text">В настоящий момент я Web-мастер в отделе внедрения компании
+                            Pixlpark</p>
+                    </li>
+                    <li class="experience__item">
+                        <h4 class="experience-item__title"><span class="blue">Онлайн-школа "IT-Compot"</span>,
+                            преподаватель
+                            программирования</h4>
+                        <p class="experience-item__text">Вёл занятия для подростков в группах до 6-ти человек. HTML,
+                            CSS, JS, React.</p>
+                    </li>
+                    <li class="experience__item">
+                        <h4 class="experience-item__title"><span class="pink"></span></h4>
+                        <p class="experience-item__text"></p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="philosophy">
+            <div class="container">
+                <div class="philosophy__info-block">
+                    <h4 class="philosophy__info-title title">Убеждения, взляды на жизнь</h4>
+                    <p class="philosophy__info-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                        nobis veritatis quo facilis inventore, illo quia laudantium magnam magni velit?</p>
+                    <a href="#" class="philosophy__info-link btn">Больше обо мне</a>
+                </div>
+                <div class="philosophy__img-wrapper">
+                    <img src="front\accets\philosophy.jpg" alt="philosophy__img">
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="container">
+                <div class="skills-general-info__block">
+                    <h3 class="skills-general-info__title title">Умения и навыки</h3>
+                    <p class="skills-general-info__description"></p>
+                </div>
+                <!-- <div class="skills-detailes__block"> -->
+                <ul class="skills-detailes__block skills-detailes__list">
+                    <li class="skills-detailes__item">
+                        <img src="front\accets\3d.png" alt="3d" class="skills-detailes-item__img">
+                        <h5 class="skills-detailes-item__title">Проектирование в CAD-программах</h5>
+                        <p class="skills-detailes-item__description">
+                            SolidWorks
+                            В ТПУ
+                            Проектирование световых приборов (расчёт электрических характерситик, фотометрический
+                            расчёт Dialux evo, проектирование в SolidWorks, расчёт трассировки лучей в ПО Оптика,
+                            проектирование печатных плат в EasyEDA) Проетирование оптических систем
+                            Колориметрический расчёт</p>
+                    </li>
+                    <li class="skills-detailes__item">
+                        <img src="front\accets\light.png" alt="light" class="skills-detailes-item__img">
+                        <h5 class="skills-detailes-item__title">Светотехнический расчёт</h5>
+                        <p class="skills-detailes-item__description">Dialux evo</p>
+                    </li>
+                    <li class="skills-detailes__item">
+                        <img src="front\accets\frontend.png" alt="frontend" class="skills-detailes-item__img">
+                        <h5 class="skills-detailes-item__title">Frontend</h5>
+                        <p class="skills-detailes-item__description">HTML, CSS, JS, React</p>
+                    </li>
+                    <li class="skills-detailes__item">
+                        <img src="front\accets\backend.png" alt="backend" class="skills-detailes-item__img">
+                        <h5 class="skills-detailes-item__title">Backend</h5>
+                        <p class="skills-detailes-item__description">C#</p>
+                    </li>
+                    <li class="skills-detailes__item">
+                        <img src="front\accets\graphics.png" alt="graphics" class="skills-detailes-item__img">
+                        <h5 class="skills-detailes-item__title">Графические редакторы</h5>
+                        <p class="skills-detailes-item__description">Photoshop, After Effects</p>
+                    </li>
+                </ul>
+                <!-- </div> -->
+            </div>
+        </section>
+        <section class="previews-swiper">
+            <div class="container">
+
+                <div class="swiper-container peview-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="new-peview">
+                                <div class="media peview-block">
+                                    <div class="media-block previews__item">
+                                        <img src="front\accets\solidworks.png" alt="solidworks"
+                                            class="previews-item__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="new-peview">
+                                <div class="media peview-block">
+                                    <div class="media-block previews__item">
+                                        <img src="front\accets\dialux_evo.svg" alt="dialux_evo"
+                                            class="previews-item__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="new-peview">
+                                <div class="media peview-block">
+                                    <div class="media-block previews__item">
+                                        <img src="front\accets\html.png" alt="html" class="previews-item__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="new-peview">
+                                <div class="media peview-block">
+                                    <div class="media-block previews__item">
+                                        <img src="front\accets\css.png" alt="css" class="previews-item__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="new-peview">
+                                <div class="media peview-block">
+                                    <div class="media-block previews__item">
+                                        <img src="front\accets\js.png" alt="js" class="previews-item__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="new-peview">
+                                <div class="media peview-block">
+                                    <div class="media-block previews__item">
+                                        <img src="front\accets\react.png" alt="react" class="previews-item__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="new-peview">
+                                <div class="media peview-block">
+                                    <div class="media-block previews__item">
+                                        <img src="front\accets\csharp.png" alt="csharp" class="previews-item__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="new-peview">
+                                <div class="media peview-block">
+                                    <div class="media-block previews__item">
+                                        <img src="front\accets\photoshop.png" alt="photoshop"
+                                            class="previews-item__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="new-peview">
+                                <div class="media peview-block">
+                                    <div class="media-block previews__item">
+                                        <img src="front\accets\after-effects.png" alt="after-effects"
+                                            class="previews-item__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="swiper-pagination pagination-peview"></div> -->
+
+
+
+                <!-- <div class="previews__block"> -->
+                <!-- <ul class="previews__list">
+                        <li class="previews__item"><img src="front\accets\solidworks.png" alt="solidworks"
+                                class="previews-item__img"></li>
+                        <li class="previews__item"><img src="front\accets\dialux_evo.svg" alt="dialux_evo"
+                                class="previews-item__img"></li>
+                        <li class="previews__item"><img src="front\accets\html.png" alt="html"
+                                class="previews-item__img"></li>
+                        <li class="previews__item"><img src="front\accets\css.png" alt="css"
+                                class="previews-item__img"></li>
+                        <li class="previews__item"><img src="front\accets\js.png" alt="js"
+                                class="previews-item__img"></li>
+                        <li class="previews__item"><img src="front\accets\react.png" alt="react"
+                                class="previews-item__img"></li>
+                        <li class="previews__item"><img src="front\accets\csharp.png" alt="csharp"
+                                class="previews-item__img"></li>
+                        <li class="previews__item"><img src="front\accets\photoshop.png" alt="photoshop"
+                                class="previews-item__img"></li>
+                        <li class="previews__item"><img src="front\accets\after-effects.png" alt="after-effects"
+                                class="previews-item__img"></li>
+                    </ul> -->
+                <!-- </div> -->
+            </div>
+        </section>
+        <section class="projects section" id="projects">
+            <div class="container">
+                <ul class="projects__list">
+                    <li class="projects__item">
+                        <div class="projects__card projects__card__header">
+                            <p class="projects__card-header__title-small">Мои проекты/курсовые работы</p>
+                            <h4 class="projects__card-header__title title">Задачи, которые я выполнил за последние 2
+                                года</h4>
+                            <p class="projects__card-header__decription">Только самые значительные на мой взгляд</p>
+                        </div>
+                        <article class="projects__card">
+                            <a href="#">
+                                <img src="front\accets\projects\yarkiy_header\yarkiy_header_3.jpg" alt="yarkiy_header"
+                                    class="projects__card__img">
+                                <div class="projects__card__info">
+                                    <h5 class="projects__card__title">Вёрстка шапки для сайта компании "Яркий
+                                        фотомаркет"
+                                        photo.yarkiy.ru
+                                    </h5>
+                                    <p class="projects__card__description">Адаптивная кроссбраузерная вёрстка по макету
+                                        в Figma.
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="projects__card">
+                            <a href="#">
+                                <img src="front\accets\projects\yarkiy_page\yarkiy_page_1.jpg" alt="yarkiy_page"
+                                    class="projects__card__img">
+                                <div class="projects__card__info">
+                                    <h5 class="projects__card__title">Верстка страницы для сайта компании "Яркий
+                                        фотомаркет"
+                                        photo.yarkiy.ru</h5>
+                                    <p class="projects__card__description">Адаптивная кроссбраузерная вёрстка по макету
+                                        в Figma.
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="projects__card">
+                            <a href="#">
+                                <img src="front\accets\projects\dialux\dialux_1.jpg" alt="" class="projects__card__img">
+                                <div class="projects__card__info">
+                                    <h5 class="projects__card__title">Светотехнический расчёт помещений в Dialux evo
+                                    </h5>
+                                    <p class="projects__card__description">Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="projects__card">
+                            <a href="#">
+                                <img src="front\accets\projects\telescop\telescop_1.jpg" alt="telescop"
+                                    class="projects__card__img">
+                                <div class="projects__card__info">
+                                    <h5 class="projects__card__title">Проектирование телескопа Ньютона с окуляром
+                                        Гюйгенса в
+                                        SolidWorks и
+                                        его расчёт в ПО «Оптика»</h5>
+                                    <p class="projects__card__description">Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="projects__item">
+
+                        <article class="projects__card">
+                            <a href="#">
+                                <img src="front\accets\projects\light_source\light_source_1.JPG" alt="light_source"
+                                    class="projects__card__img">
+                                <div class="projects__card__info">
+                                    <h5 class="projects__card__title">Проектирование светового прибора (прожектора) для
+                                        освещения
+                                        памятников архитектуры в SolidWorks</h5>
+                                    <p class="projects__card__description">Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="projects__card">
+                            <a href="#">
+                                <img src="front\accets\projects\Optics\optics_1.png" alt="Optics"
+                                    class="projects__card__img">
+                                <div class="projects__card__info">
+                                    <h5 class="projects__card__title">Написание программного модуля для ПО «Оптика» на
+                                        языке C#
+                                    </h5>
+                                    <p class="projects__card__description">Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="projects__card">
+                            <a href="#">
+                                <img src="front\accets\projects\bakalavr\bakalavr.jpg" alt="bakalavr"
+                                    class="projects__card__img">
+                                <div class="projects__card__info">
+                                    <h5 class="projects__card__title">«Экспериментальное изучение электрического пробоя
+                                        при
+                                        низком
+                                        давлении»</h5>
+                                    <p class="projects__card__description">В рамках дипломной работы</p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="projects__card">
+                            <a href="#">
+                                <img src="front\accets\projects\cetera\cetera.jpg" alt="cetera"
+                                    class="projects__card__img">
+                                <div class="projects__card__info">
+                                    <h5 class="projects__card__title">Сайт на платформе Cetera</h5>
+                                    <p class="projects__card__description">Пригласили на стажировку, но я нашёл работу к
+                                        тому
+                                        времени
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <div class="projects__btn"><a href="#">Смотреть все проекты</a></div>
+                    </li>
+                </ul>
+
+
+            </div>
+        </section>
+        <section class="inst">
+            <div class="container">
+                <div class="inst-info__block">
+                    <div class="inst-info-description__block">
+                        <h4 class="inst-info-description__title title">Instagram*</h4>
+                        <p class="inst-info-description__text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="inst-info-link__block">
+                        <a href="https://www.instagram.com/brytkovsergei/" target="_blank"
+                            class="inst-info-link__link btn">
+                            Подписывайся на мою инсту
+                        </a>
+                    </div>
+                </div>
+                <div class="inst-photo__block">
+                    <img src="front\accets\inst\spb\4.jpg" alt="inst">
+                </div>
+            </div>
+        </section>
+        <section class="photography section" id="photography">
+            <div class="container">
+                <h3 class="photography__title title">Фотографии</h3>
+                <p class="photography__description">Лучшие фотографии, в том числе с графической обработкой, что я
+                    делал.</p>
+                <div class="photography-tab__block">
+                    <div class="photography-tab__menu">
+                        <button class="photography-tab__button tab__btn tab__btn--active" data-button="spb">СПБ</button>
+                        <button class="photography-tab__button tab__btn" data-button="crimea">Крым</button>
+                        <button class="photography-tab__button tab__btn" data-button="tomsk">Томск</button>
+                        <button class="photography-tab__button tab__btn" data-button="others">Другие</button>
+                    </div>
+                    <div class="photography-tab__item tab__item tab__item--active" id="spb">
+                        <ul class="photography-tab__list">
+                            <li class="photography-tab__list-item"><img src="front\accets\inst\spb\1.jpg" alt=""></li>
+                            <li class="photography-tab__list-item"><img src="front\accets\inst\spb\2.jpg" alt=""></li>
+                            <li class="photography-tab__list-item"><img src="front\accets\inst\spb\3.jpg" alt=""></li>
+                            <li class="photography-tab__list-item"><img src="front\accets\inst\spb\4.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="photography-tab__item tab__item" id="crimea">
+                        <ul class="photography-tab__list">
+                            <li class="photography-tab__list-item"><img src="front\accets\inst\crimea\1.jpg" alt="">
+                            </li>
+                            <li class="photography-tab__list-item"><img src="front\accets\inst\crimea\2.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="photography-tab__item tab__item" id="tomsk">
+                        <ul class="photography-tab__list">
+                            <li class="photography-tab__list-item"><img src="front\accets\inst\tomsk\1.jpg" alt=""></li>
+                            <li class="photography-tab__list-item"><img src="front\accets\inst\tomsk\2.jpg" alt=""></li>
+                            <li class="photography-tab__list-item"><img src="front\accets\inst\tomsk\3.jpg" alt=""></li>
+                            <li class="photography-tab__list-item"><img src="front\accets\inst\tomsk\4.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="photography-tab__item tab__item" id="others">
+                        <ul class="photography-tab__list">
+                            <li class="photography-tab__list-item"><img src="front\accets\inst\others\1.jpg" alt="">
+                            </li>
+                            <li class="photography-tab__list-item"><img src="front\accets\inst\others\2.jpg" alt="">
+                            </li>
+                            <li class="photography-tab__list-item"><img src="front\accets\inst\others\3.jpg" alt="">
+                            </li>
+                            <li class="photography-tab__list-item"><img src="front\accets\inst\others\4.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts section" id="contacts">
+            <div class="container">
+                <div class="contacts__info-block">
+                    <h4 class="contacts__info-title title">Обратная связь</h4>
+                    <p class="contacts__info-decription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                        et? Dicta repellendus ratione deleniti eligendi unde porro molestiae quia ex.</p>
+                </div>
+                <form action="#" id="form" method="POST" class="contacts__form" autocomplete="off">
+                    <!-- <h5 class="contacts__form-title">Написать сообщение</h5> -->
+                    <div class="contacts__form-wrapper form-wrapper">
+
+                        <div class="form__input-wrapper" id="name">
+                            <label for="name">Имя</label>
+                            <input type="text" name="name" id="nameReal" class="contacts__form-input">
+                        </div>
+                        <div class="form__input-wrapper" id="email">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="emailReal" class="contacts__form-input">
+                        </div>
+
+                        <!-- <div class="contacts__form-select">
+                            <div class="setting-description">
+                                <div class="setting-description-text">
+                                    <h10>Выберите книгу</h10>
+                                </div>
+                            </div>
+                            <div class="form-select__dropdown-wrapper" id="dropdown">
+                                <span class="selected-display" id="destination"></span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="arrow transition-all ml-auto rotate-180"
+                                    id="drp-arrow" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                    <path d="M1 5L5.5 1L10 5" stroke="#202326" stroke-width="1.5" />
+                                </svg>
+                                <ul class="form-select__dropdown">
+                                    <li class="form-select__dropdown-item">JavaScript ниндзя</li>
+                                    <li class="form-select__dropdown-item">Pragmatic Guide to JavaScript</li>
+                                    <li class="form-select__dropdown-item">Pro JavaScript Techniques</li>
+                                    <li class="form-select__dropdown-item">Выразительный JavaScript</li>
+                                </ul>
+                            </div>
+                        </div> -->
+                        <div class="form__textarea-wrapper" id="description">
+                            <label for="description">Ваше сообщение</label>
+                            <textarea name="description" id="descriptionReal" cols="30" rows="7"
+                                class="contacts__form-textarea"></textarea>
+                        </div>
+                        <button class="contacts__form-button" type="submit">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__general-content-block">
+                <div class="general-content__contacts-block">
+                    <div class="footer__logo-wrapper"><img src="front\accets\Logo.svg" alt="logo"></div>
+                    <ul class="footer-social__list">
+                        <li class="footer-social__item"><a href="https://vk.com/lofibree" target="_blank"><img
+                                    src="front\accets\vk.png" alt="vk"></a></li>
+                        <li class="footer-social__item"><a href="https://t.me/Lofibree" target="_blank"><img
+                                    src="front\accets\telegram.png" alt="telegram"></a>
+                        </li>
+                        <li class="footer-social__item"><a href="https://github.com/Lofibree" target="_blank"><img
+                                    src="front\accets\github.png" alt="github"></a></li>
+                    </ul>
+                </div>
+                <div class="general-content__nav-block">
+                    <ul class="footer__links-list">
+                        <li class="footer__links-item"><a href="#" class="footer__links-link">Главная</a></li>
+                        <li class="footer__links-item"><a href="#" class="footer__links-link">Обо мне</a></li>
+                        <li class="footer__links-item"><a href="#" class="footer__links-link">Проекты</a></li>
+                        <li class="footer__links-item"><a href="#" class="footer__links-link">Процесс</a></li>
+                    </ul>
+                    <ul class="footer__links-list">
+                        <li class="footer__links-item"><a href="#" class="footer__links-link">Магазин</a></li>
+                        <li class="footer__links-item"><a href="#" class="footer__links-link">Блог</a></li>
+                        <li class="footer__links-item"><a href="#" class="footer__links-link">Список для чтения</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom-block">
+                <p class="footer__bottom-copyright">2024 • Сергей Брытков</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+
+<!-- <script src="front\js/customSelect.js"></script> -->
+<script src="front/js/customInput.js"></script>
+<script src="front/js/customTextarea.js"></script>
+<script src="front/js/main.js"></script>
+<script src="front/js/mail.js"></script>
+
+</html>

@@ -1,0 +1,62 @@
+.form__textarea-wrapper {
+    border: 1px solid #EDEDF1;
+    resize: none;
+    max-height: 180px;
+    transition: 0.2s ease;
+    position: relative;
+
+    display: block;
+    background-color: #181823;
+    padding: 0 24px;
+    color: #fff;
+    margin-bottom: 40px;
+    border: 0;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.form__textarea-wrapper textarea {
+    width: 100%;
+    border: none;
+    background-color: #181823;
+    resize: none;
+    padding: 0;
+    transition: 0.2s ease;
+    height: 100%;
+    color: #fff;
+
+
+    font-size: 14px;
+    line-height: 15px;
+    padding: 24px 0px;
+}
+
+.form__textarea-wrapper:focus-visible {
+    offset: none;
+    outline: none;
+}
+
+.form__textarea-wrapper.active {
+    border: 1px solid var(--main-blue, #2D1AA7) !important;
+}
+
+.form__textarea-wrapper label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    pointer-events: none;
+    transition: 0.2s ease;
+    color: #777;
+}
+
+.form__textarea-wrapper.active label {
+    top: 2px;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 14px;
+}
+
+.form__textarea-wrapper .contacts__form-textarea:focus-visible {
+    outline: none;
+}

@@ -1,0 +1,480 @@
+@media (any-hover) {
+    .btn:hover::before {
+        -webkit-transform: scaleX(0.9) scaleY(2);
+        -ms-transform: scaleX(0.9) scaleY(2);
+        transform: scaleX(0.9) scaleY(2);
+    }
+
+    .header .nav-item a:hover {
+        text-decoration: underline;
+    }
+
+    .projects__card:hover {
+        -webkit-transform: scale(0.99);
+        -ms-transform: scale(0.99);
+        transform: scale(0.99);
+    }
+
+    .projects__btn:hover {
+        -webkit-transform: scale(0.99);
+        -ms-transform: scale(0.99);
+        transform: scale(0.99);
+    }
+
+    .skills-detailes__item:hover {
+        -webkit-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+        transform: scale(1.01);
+    }
+
+    .footer-social__item:hover {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    .footer__links-list a:hover {
+        text-decoration: underline;
+    }
+
+    .butger-btn:hover {
+        cursor: pointer
+    }
+}
+
+@media(max-width: 1440px) {
+    .education {
+        padding: 80px 0
+    }
+
+    .skills {
+        padding: 80px 0
+    }
+
+    .expirience {
+        padding: 80px 0
+    }
+
+    .page__response {
+        padding: 80px 0
+    }
+
+    .photography {
+        padding: 80px 0
+    }
+
+    .contacts {
+        padding: 80px 0
+    }
+
+    .hero-block::after {
+        display: none
+    }
+
+    .hero-block__wrap {
+        -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+        justify-content: stretch
+    }
+
+    .hero-block .hero-block__img {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 45%;
+        flex: 0 1 45%;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0)
+    }
+
+    .hero-block .hero-block__img img {
+        -o-object-fit: cover;
+        object-fit: cover
+    }
+
+    .hero-block .hero-block__text {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 55%;
+        flex: 0 1 55%;
+        -webkit-transform: translateX(-66px);
+        -ms-transform: translateX(-66px);
+        transform: translateX(-66px)
+    }
+
+    .hero-block .hero-block__title {
+        font-size: 56px
+    }
+
+    .experience__list,
+    .education__list {
+        -webkit-column-gap: 40px;
+        -moz-column-gap: 40px;
+        column-gap: 40px
+    }
+
+    .philosophy__info-block {
+        padding: 80px 40px
+    }
+
+    .philosophy__info-description {
+        margin-bottom: 67px
+    }
+
+    .inst-info__block {
+        padding: 80px 40px
+    }
+
+    .inst-info-description__text {
+        margin-bottom: 67px
+    }
+}
+
+@media(max-width: 1380px) {
+    .skills .container {
+        grid-template-columns: 1fr;
+        row-gap: 48px
+    }
+
+    .skills-detailes__block.skills-detailes__list {
+        grid-column: 1/2
+    }
+
+    /* .previews-swiper .container {
+        grid-template-columns:repeat(3, 1fr)
+    }
+    .swiper__img {
+        max-width:100%
+    } */
+    .projects__card__img {
+        margin: 0 auto
+    }
+
+    /* .response__container {
+        -webkit-column-gap:10px;
+        -moz-column-gap: 10px;
+        column-gap: 10px
+    }
+    .response__text-item {
+        padding:32px
+    } */
+    .photography-tab__item .photography-tab__list {
+        grid-template-columns: repeat(auto-fit, minmax(306px, 1fr))
+    }
+}
+
+@media(max-width: 1024px) {
+    .projects__list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        /* row-gap: 48px; */
+        max-width: 624px;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+@media(max-width: 767.98px) {
+    [class*=container] {
+        padding: 0 20px
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .header.nav-active::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: #000
+    }
+
+    .navbar.nav-active {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+    .nav__link {
+        font-size: 24px;
+    }
+
+    .header .container {
+        min-height: 70px;
+        -webkit-column-gap: 20px;
+        -moz-column-gap: 20px;
+        column-gap: 20px
+    }
+
+    .navbar {
+        overflow-y: auto;
+        position: fixed;
+        z-index: 4;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        padding: 150px 0 30px;
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
+        -webkit-transition: -webkit-transform .4s linear;
+        transition: -webkit-transform .4s linear;
+        transition: transform .4s linear;
+        transition: transform .4s linear, -webkit-transform .4s linear;
+        background-color: #000
+    }
+
+    .nav-list {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+
+    .nav-link {
+        font-size: 24px
+    }
+
+    .nav-link.nav-active {
+        min-height: 70px
+    }
+
+    .butger-btn {
+        display: block;
+        width: 18px;
+        height: 11px
+    }
+
+    .butger-btn:hover {
+        cursor: pointer
+    }
+
+    .butger-btn span,
+    .butger-btn::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        height: 2px;
+        background-color: #fff;
+        -webkit-transition: all .3s ease 0s;
+        transition: all .3s ease 0s
+    }
+
+    .butger-btn::before {
+        width: 100%;
+        top: 0
+    }
+
+    .butger-btn span {
+        width: 13px;
+        bottom: 0
+    }
+
+    .hero-block {
+        padding-top: 0;
+        padding-bottom: 48px
+    }
+
+    .education {
+        padding: 48px 0
+    }
+
+    .skills {
+        padding: 80px 0 64px
+    }
+
+    .expirience {
+        padding: 64px 0 70px
+    }
+
+    /* .page__response {
+        padding:48px 0
+    } */
+    .photography {
+        padding: 48px 0
+    }
+
+    .contacts {
+        padding: 48px 0
+    }
+
+    .hero-block__wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        row-gap: 48px
+    }
+
+    .hero-block .hero-block__img {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        position: relative;
+        padding-bottom: 80%;
+        overflow: hidden;
+        width: 100%
+    }
+
+    .hero-block .hero-block__img img {
+        position: absolute;
+        inset: 0
+    }
+
+    .hero-block .hero-block__text {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+        padding: 0 20px
+    }
+
+    .hero-block .hero-block__title {
+        font-size: 32px;
+        margin-bottom: 16px
+    }
+
+    .experience__list,
+    .education__list {
+        grid-template-columns: 1fr;
+        row-gap: 48px
+    }
+
+    .experience .item-experience__title {
+        margin-bottom: 16px
+    }
+
+    .philosophy .container {
+        grid-template-columns: 1fr
+    }
+
+    .philosophy__info-block {
+        padding: 48px 20px
+    }
+
+    .philosophy__info-description {
+        margin-bottom: 90px
+    }
+
+    .skills .container {
+        row-gap: 69px
+    }
+
+    .skills-general-info__title {
+        margin-bottom: 16px
+    }
+
+    .skills-detailes__block.skills-detailes__list {
+        grid-template-columns: 1fr
+    }
+
+    .previews-swiper .container {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .projects__card__img {
+        overflow: hidden;
+        /* padding-bottom: 80%; */
+        position: relative;
+        width: 100%
+    }
+
+    /* .projects__card__img img {
+        position:absolute;
+        inset: 0
+    } */
+    .inst .container {
+        grid-template-columns: 1fr
+    }
+
+    .inst-info-description__block {
+        padding: 48px 20px
+    }
+
+    .inst-info-description__text {
+        margin-bottom: 90px
+    }
+
+    /* .response__container {
+        grid-template-columns:1fr;
+        row-gap: 64px
+    } */
+    .photography__description {
+        margin-bottom: 40px
+    }
+
+    .photography .photography-tab__menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .contacts .container {
+        grid-template-columns: 1fr
+    }
+
+    .footer {
+        padding: 48px 0
+    }
+
+    .footer .container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        gap: 48px
+    }
+
+    .footer__general-content-block {
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .footer .general-content__contacts-block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        /* margin-bottom: 48px; */
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto
+    }
+
+    .footer .general-content__nav-block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-bottom: 48px;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto
+    }
+
+    .footer__links-list {
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto
+    }
+
+    
+    .education__item:before, .experience__item:before {
+        font-size: 140px;
+    }
+}
